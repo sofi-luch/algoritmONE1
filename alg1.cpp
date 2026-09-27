@@ -1,7 +1,6 @@
 /**************************
-* Автор: Лучникова С. А.  *
-* Дата: 22.09.26          *
-* Название: Вариант 2     *
+* Автор: Лучникова София  *
+* Вариант 2               *
 * ************************/
 
 #include <iostream>
@@ -18,12 +17,14 @@ int main() {
 	//entering variables from the user's keyboard
 	cout << "a = ";
 	cin >> a;
+	
 	cout << "b = ";
 	cin >> b;
+	
 	cout << "c = ";
 	cin >> c;
 
-	//calculation of new variables
+	//from given
 	g = c / a;
 	p = b / a;
 
@@ -38,8 +39,8 @@ int main() {
 
 	//outputting the found intersection points
 	cout << "x1 = " << x1 << endl
-		<< "x2 = " << x2 << endl
-		<< "x3 = " << x3 << endl;
+		 << "x2 = " << x2 << endl
+		 << "x3 = " << x3 << endl;
 
 	return 0;
 }
