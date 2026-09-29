@@ -29,13 +29,13 @@ int main() {
 	p = b / a;
 
 	//finding the alpha angle and converting it into radians
-	alpha = acos(g / (2 * sqrt(pow(-p / 3, 3))));
-	radalpha = alpha * (pi / 180);
+	alpha = acos(g / (2.0 * sqrt(pow(-p / 3.0, 3.0))));
+	radalpha = alpha * (pi / 180.0);
 
 	//finding the intersection points of the trajectory with the abscissa axis
-	x1 = 2 * sqrt(-p / 3) * cos(alpha / 3);
-	x2 = -2 * sqrt(-p / 3) * cos((alpha + pi) / 3);
-	x3 = -2 * sqrt(-p / 3) * cos((alpha - pi) / 3);
+	x1 = 2.0 * sqrt(-p / 3.0) * cos(alpha / 3.0);
+	x2 = -2.0 * sqrt(-p / 3.0) * cos((alpha + pi) / 3.0);
+	x3 = -2.0 * sqrt(-p / 3.0) * cos((alpha - pi) / 3.0);
 
 	//outputting the found intersection points
 	cout << "x1 = " << x1 << endl
