@@ -14,8 +14,9 @@ int main() {
 	double alpha, radalpha, g, p, a, b, c, x1, x2, x3;
 	const double pi = 3.14;
 
-	//entering variables from the user's keyboard
+	//displaying the text "a=" on the user's screen
 	cout << "a = ";
+	//entering variables from the user's keyboard
 	cin >> a;
 	
 	cout << "b = ";
